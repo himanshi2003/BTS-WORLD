@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="css/signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="signup">
+        <div class="col1">
+          <a href="btshome"> <img id="Cross" src="images/Group.png" /> </a>
+          <h2>Sign Up</h2>
+          <form action="/register" method="POST">
+            <div class="labelname">
+              <label>First Name</label>
+              <label id="#last">Last Name</label>
+            </div>
+            <div class="naming">
+              <input
+                type="text"
+                placeholder="Enter your firstname"
+                class="name"
+                required
+                name="firstname"
+              />
+              <input
+                type="text"
+                placeholder="Enter your lastname"
+                class="name"
+                required
+                name="lastname"
+              />
+            </div>
+
+            <label>Email Address</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="input-field"
+              required
+              name="email"
+            />
+
+            <label>Set Password</label>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              class="input-field"
+              required
+              name="password"
+            />
+            <button type="submit">Sign Up</button>
+          </form>
+          <a href="login" id="LogIn">Log In</a>
+          <h4>or</h4>
+          <hr />
+          <a href="" class="google-link">
+            <img src="images/google_icon.png" />Sign In with Google
+          </a>
+        </div>
+        <div class="col2">
+          <img src="images/signup_bg2.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

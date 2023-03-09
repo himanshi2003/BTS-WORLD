@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+         .btn {
+        margin-left: 10vw;
+        height: 50px;
+        width: 60%;
+        border-radius: 30px;
+        border: 1px solid white;
+        color: white;
+        background-color: rgb(1, 9, 34);
+        font-size: 16px;
+        margin : 25px 105px 20px;
+        padding : 2px;
+        position: absolute;
+        top : 55%;
+    }
+    </style>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login_box">
+        <div class="col1"></div>
+        <div class="col2">
+         <form action="/login" id="form1" method="POST">
+          <div id="Email_Address"><label for="input1">Email Address</label>
+          <input id="input1" placeholder="Email Address" required name = "email" type = "email"></div>
+          <div id="Set_Password"><label for="input2">Set Password</label>
+          <input id="input2" placeholder="Password" required name = "password" type = "password"></div>
+          <div class="row">
+            <input id="input3" type="checkbox" checked >
+            <span id="span1"></span>
+          </div>
+          {{!-- <button id="sub" type="submit">LOG IN</button> --}}
+          <input type="submit" class ="btn" value = "LOG IN"> </div>
+         </form>
+      </br>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/login_classes.js"></script>
+</html>
