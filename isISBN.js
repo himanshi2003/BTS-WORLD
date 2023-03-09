@@ -1,21 +1,10 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = isISBN;
-
-var _assertString = _interopRequireDefault(require("./util/assertString"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
+import assertString from './util/assertString';
 var isbn10Maybe = /^(?:[0-9]{9}X|[0-9]{10})$/;
 var isbn13Maybe = /^(?:[0-9]{13})$/;
 var factor = [1, 3];
-
-function isISBN(str) {
+export default function isISBN(str) {
   var version = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
-  (0, _assertString.default)(str);
+  assertString(str);
   version = String(version);
 
   if (!version) {
@@ -60,6 +49,3 @@ function isISBN(str) {
 
   return false;
 }
-
-module.exports = exports.default;
-module.exports.default = exports.default;

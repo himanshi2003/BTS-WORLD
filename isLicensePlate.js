@@ -1,14 +1,4 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = isLicensePlate;
-
-var _assertString = _interopRequireDefault(require("./util/assertString"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
+import assertString from './util/assertString';
 var validators = {
   'cs-CZ': function csCZ(str) {
     return /^(([ABCDEFHKIJKLMNPRSTUVXYZ]|[0-9])-?){5,8}$/.test(str);
@@ -32,9 +22,8 @@ var validators = {
     return /^[A-Z]{3}[ -]?[0-9][A-Z][0-9]{2}|[A-Z]{3}[ -]?[0-9]{4}$/.test(str);
   }
 };
-
-function isLicensePlate(str, locale) {
-  (0, _assertString.default)(str);
+export default function isLicensePlate(str, locale) {
+  assertString(str);
 
   if (locale in validators) {
     return validators[locale](str);
@@ -53,6 +42,3 @@ function isLicensePlate(str, locale) {
 
   throw new Error("Invalid locale '".concat(locale, "'"));
 }
-
-module.exports = exports.default;
-module.exports.default = exports.default;
