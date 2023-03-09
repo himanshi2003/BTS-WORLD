@@ -1,2 +1,2 @@
-# BTS-WORLD
-This repo contains my web dev project name-BTSWORLD 
+# BTSWORLD
+[Link to static website](https://kumkumm19.github.io/)
