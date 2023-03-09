@@ -1,0 +1,14 @@
+{
+  "cross": "./Images/Group.png",
+  "logo": "BTS WORLD",
+  "home": "Home",
+  "bts": "BTS",
+  "members": "Members",
+  "merch": "Merch",
+  "about": "About",
+  "flower3": "images/a36-removebg-preview.png",
+  "more": "More",
+  "submenu": ["Discography", "Merchandise", "Filmography"],
+  "submenu2": ["Instagram", "Twitter", "Terms & Conditions"],
+  "social": "Social"
+}

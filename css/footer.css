@@ -1,0 +1,102 @@
+footer {
+  height: 30vh;
+  width: 100%;
+}
+footer hr {
+  margin: 2% 5.5%;
+}
+.sec {
+  margin: 3% 6%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.16rem;
+}
+.sec h3 {
+  font-weight: 200;
+  opacity: 90%;
+  font-size: 1.25rem;
+  letter-spacing: 0.2rem;
+}
+.section {
+  width: 33.33%;
+}
+#s1 ul {
+  list-style: none;
+  padding: 3% 0% 10%;
+}
+#s1 ul li {
+  padding: 2% 0%;
+}
+#s1 ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+  opacity: 90%;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+}
+#s2 {
+  text-align: center;
+  position: relative;
+}
+#s2 #b1 {
+  padding: 4%;
+  position: absolute;
+  top: 25%;
+  left: 32%;
+  cursor: pointer;
+}
+#s2 #b2 {
+  padding: 4%;
+  position: absolute;
+  top: 25%;
+  left: 48%;
+  cursor: pointer;
+}
+#s2 #b3 {
+  padding: 4%;
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  cursor: pointer;
+}
+#s2 #b4 {
+  padding: 4%;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  cursor: pointer;
+}
+#s3 {
+  text-align: right;
+  position: relative;
+}
+#s3 p {
+  margin: 10% 0% 5%;
+}
+#s3 .Email {
+  background-color: black;
+  height: 17%;
+  width: 51%;
+  color: white;
+  font-size: medium;
+  text-align: center;
+}
+.Email::placeholder {
+  color: white;
+  opacity: 1;
+}
+.Email input {
+  border-style: none;
+}
+#s3 .submit {
+  background-color: white;
+  height: 17%;
+  width: 16%;
+  font-size: medium;
+  text-align: center;
+  letter-spacing: 2%;
+  cursor: pointer;
+}

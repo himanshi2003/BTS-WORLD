@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  #members:hover,
+  #merch:hover,
+  #bts:hover,
+  #about:hover {
+    font-family: "Open Sans";
+    font-style: italic;
+    color: #d5cc93;
+  }
+
+  .hometxt:hover {
+    /* font-family: "Open Sans"; */
+    font-style: normal;
+    color: #000000;
+    font-size: 30px;
+  }

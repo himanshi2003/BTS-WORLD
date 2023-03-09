@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f3f2f5;
+  /* height: 100vh;
+  width: 100vw; */
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 3px;
+}
+
+#army {
+  position: absolute;
+  top: 15%;
+  left: 46%;
+  filter: drop-shadow(0px 3.61011px 28.8809px #bd9be7);
+  width: 7.5rem;
+  height: 8.125rem;
+  z-index: 0;
+}
+
+.ami {
+  position: absolute;
+  left: 32%;
+  top: 40%;
+  font-family: "Algerian";
+  font-style: normal;
+  font-size: 1.5625rem;
+  /* font-weight: 500px; */
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+.Quote {
+  position: absolute;
+  left: 24%;
+  top: 45%;
+  font-family: "Oooh Baby";
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 4.0265rem;
+  /* line-height: 135px; */
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  color: #000000;
+  text-shadow: 0rem 0.4375rem 0.25rem rgba(132, 70, 137, 0.4);
+}
+#flower1 {
+  position: absolute;
+  opacity: 0.7;
+  left: 0%;
+  height: 65%;
+  top: 15%;
+}
+#flower2 {
+  position: absolute;
+  opacity: 0.7;
+  right: 5%;
+  height: 45%;
+  top: 20%;
+}
+.imagescroll {
+  display: flex;
+  top: 65%;
+  position: absolute;
+  width: 85%;
+  left: 7%;
+  /* margin-bottom: 50px; */
+  /* height: 40%; */
+
+  border: 3px solid black;
+  border-radius: 20px;
+  /* margin-left: 80px; */
+  /* overflow: auto;
+  white-space: nowrap; */
+
+  /* white-space: nowrap; */
+}
+
+.imagescroll img {
+  margin: 1.25rem 1.25rem 1.875rem;
+  height: 25rem;
+  width: 20rem;
+}
+
+.who {
+  position: absolute;
+  font-family: "Open-Sans";
+  font-style: normal;
+  font-size: 2.5625rem;
+  left: 30%;
+  top: 5%;
+  /* float: right; */
+}
+
+.desc {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  right: 10%;
+  font-family: "Open-Sans";
+  font-style: normal;
+  font-size: 1.5625rem;
+}
+.f {
+  position: relative;
+  margin-top: 1000px;
+}

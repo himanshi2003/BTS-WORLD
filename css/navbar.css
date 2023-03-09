@@ -1,0 +1,62 @@
+nav {
+  position: fixed;
+  top: 0;
+  list-style: none;
+  box-sizing: border-box;
+  height: 5rem;
+  width: 100%;
+  z-index: 100;
+  background-color: #f3f2f5;
+}
+label.logo {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.1rem;
+  line-height: 5rem;
+  padding: 0 6rem;
+  /* display: flex;
+ align-items: center;
+ text-align: center; */
+  letter-spacing: 0.06em;
+  color: #2f2f20;
+  text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  z-index: 5;
+}
+nav ul {
+  float: right;
+  margin-right: 1.25rem;
+  text-decoration: none;
+  z-index: 5;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 5rem;
+  margin: 0 0.3rem;
+  z-index: 5;
+}
+
+nav ul li a {
+  font-family: "Piazzolla";
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.4rem 1.75rem;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #000000;
+  z-index: 5;
+}
+
+hr {
+  margin-left: 6.5%;
+  width: 90%;
+}
+
+nav ul li a:hover {
+  /* background: grey; */
+  text-decoration: underline;
+  opacity: 60%;
+}

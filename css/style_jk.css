@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .first {
+    width: 100%;
+    height: 100vh;
+    background-color: #1C2230;
+    position: relative;
+  }
+  .BTS{
+    position: absolute;
+    background-color: white;
+    width: 57%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .BTS img {
+    position: absolute;
+    padding: 6% 9.5%;
+    opacity: 85%;
+  }
+  .BTS .bts_1 {
+    position: absolute;
+    left: 92%;
+    top: 17%;
+    vertical-align: text-bottom;
+    color: #1C2230;
+    font-size: 1.25em;
+    writing-mode: vertical-rl;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: 0.5rem;
+    transform: rotate(180deg);
+  }
+  .first .music img {
+    border: 7px solid white;
+    position: absolute;
+    right: 8.75%;
+    top: 7.5%;
+  }
+  .t1 {
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 63%;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: large;
+  }
+  .t2 {
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 67.5%;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: large;
+  }
+  .content img {
+    position: absolute;
+    top: 62%;
+    left: 89.5%;
+  }
+
+  .song-slider {
+    left: 65%;
+    top: 75%;
+    width: 26%;
+    position: absolute;
+  }
+  
+  .seek-bar {
+    position: relative;
+    appearance: slider-horizontal;
+    width: 100%;
+    border-radius: 1%;
+    background: #ffff;
+    cursor: pointer;
+  }
+  
+  .current-time,
+  .song-duration {
+    color: white;
+    font-size: 1rem;
+  }
+  .song-duration {
+    position: absolute;
+    right: 0;
+  }
+  .content #i1 {
+    position: absolute;
+    left: 64%;
+    top: 84%;
+    cursor: pointer;
+  }
+  .content #i2 {
+    position: absolute;
+    left: 70%;
+    top: 84%;
+    cursor: pointer;
+  }
+  .content #i3 {
+    position: absolute;
+    left: 76%;
+    top: 84%;
+    cursor: pointer;
+  }
+  .content #i4 {
+    position: absolute;
+    left: 82%;
+    top: 84%;
+    cursor: pointer;
+  }
+  .content #i5 {
+    position: absolute;
+    left: 88%;
+    top: 84%;
+    cursor: pointer;
+  }
+  
